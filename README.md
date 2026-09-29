@@ -52,8 +52,6 @@ python:3.12 및 python:3.12-slim 태그의 패치 버전은 향후 빌드 시 �
 ## 겪은 문제와 해결
 - compose-test 실습에서 Compose YAML의 착오로 service로 입력해서 에러가 났습니다. GPT 도움을 받아 services:로 수정했습니다.
 - docker-compose.yml과 README.md 작성에는 nano 편집기를 사용했습니다.
-- app의 Exited (0)은 오류가 아니라 출력 완료 후 정상 종료입니다.
-- 공개용 정리: 비밀번호를 .env로 분리하고 Dockerfile은 app.py만 복사하도록 수정했습니다.
 
 ## 이미지 및 빌드 기록
 | 항목 | 확인값 | 조건 |
