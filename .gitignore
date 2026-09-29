@@ -1,0 +1,10 @@
+/*
+!/docker-compose.yml
+!/README.md
+!/.env.example
+!/.gitignore
+!/app/
+/app/*
+!/app/Dockerfile
+!/app/app.py
+!/app/requirements.txt
